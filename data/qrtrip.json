@@ -1,0 +1,88 @@
+{
+  "qrtrip_id": 323234,
+  "passenger": {
+    "id": 1023878163,
+    "firstName": "Edwin Geovanny",
+    "lastName": "Torres Sanchez",
+    "email": "etorres.net@gmail.com",
+    "phone": 3123962374,
+    "rh": "o+",
+    "emergency_contact": {
+      "name": "Ana Delia Sanchez",
+      "phone": "3214012346",
+      "kinship": "Mama"
+    }
+  },
+  "trip": {
+    "route": "Honda, La Dorada",
+    "seat": "2B",
+    "distance": "239 km",
+    "origin": {
+      "terminalId": 1,
+      "city": {
+        "id": 1,
+        "name": "Bogota"
+      },
+      "name": "Terminal Sur",
+      "location": {
+        "lat": 4.6,
+        "lng": -74.0833
+      },
+      "address": "Calle 26",
+      "departure_date": "2017-09-11",
+      "departure_time": "13:10:00"
+    },
+    "destination": {
+      "terminalId": 2,
+      "city": {
+        "id": 2,
+        "name": "Medellin"
+      },
+      "name": "Terminal Norte",
+      "location": {
+        "lat": 4.6,
+        "lng": -74.0833
+      },
+      "address": "Calle 32",
+      "departure_date": "2017-09-11",
+      "departure_time": "17:10:00"
+    },
+    "fare": {
+      "currency": "COP",
+      "value": 15900,
+      "iva": 1200,
+      "total": 17100
+    },
+    "driver": {
+      "id": 345322,
+      "name": "Pepito Perez",
+      "phone": "3224012346"
+    },
+    "vehicle": {
+      "driving_plate": "QUQ-22D",
+      "services": [
+        {
+          "name": "Bathroom",
+          "icon": "bath"
+        },
+        {
+          "name": "Air",
+          "icon": "air"
+        },
+        {
+          "name": "internet",
+          "icon": "internet"
+        },
+        {
+          "name": "TV",
+          "icon": "tv"
+        }
+      ]
+    },
+    "transport_company": {
+      "nit": 800232342,
+      "name": "Buses del futuro",
+      "phone": "3128276541"
+    }
+  }
+}

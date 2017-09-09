@@ -14,7 +14,8 @@ const errorHandlers = require('./handlers/errorHandlers');
 
 // Routes
 const indexRoute = require('./routes/index');
-const cityRoute = require('./routes/city');
+const cityRoute = require('./routes/api/city');
+const qrTrip = require('./routes/api/qrTrip');
 
 // create our Express app
 const app = express();
@@ -71,6 +72,7 @@ app.use((req, res, next) => {
 // After allllll that above middleware, we finally handle our own routes!
 app.use('/', indexRoute);
 app.use('/api/city', cityRoute);
+app.use('/api/qr-trip', qrTrip);
 
 // If that above routes didnt work, we 404 them and forward to error handler
 app.use(errorHandlers.notFound);

@@ -1,0 +1,16 @@
+[
+  {
+    "transport_company": {
+      "nit": 800232342,
+      "name": "Buses del futuro",
+      "phone": "3128276541"
+    }
+  },
+  {
+    "transport_company": {
+      "nit": 1234523,
+      "name": "Buses del futuro",
+      "phone": "3128276541"
+    }
+  }
+]

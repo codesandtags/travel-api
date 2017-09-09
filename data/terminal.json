@@ -1,0 +1,28 @@
+[
+  {
+    "terminalId": 1,
+    "city": {
+      "id": 1,
+      "name": "Bogota"
+    },
+    "location": {
+      "lat": 4.6486259,
+      "lng": -74.2478934,
+      "address": "Calle asdfasdf"
+    },
+    "gates": 5
+  },
+  {
+    "terminalId": 2,
+    "city": {
+      "id": 2,
+      "name": "Medellin"
+    },
+    "location": {
+      "lat": 4.6486259,
+      "lng": -74.2478934,
+      "address": "Calle asdfasdf"
+    },
+    "gates": 5
+  }
+]

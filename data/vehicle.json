@@ -1,0 +1,23 @@
+{
+  "vehicle": {
+    "driving_plate": "QUQ-22D",
+    "services": [
+      {
+        "name": "Bathroom",
+        "icon": "bath"
+      },
+      {
+        "name": "Air",
+        "icon": "air"
+      },
+      {
+        "name": "internet",
+        "icon": "internet"
+      },
+      {
+        "name": "TV",
+        "icon": "tv"
+      }
+    ]
+  }
+}
