@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Bogota",
+    "code": "BOG",
+    "region": "Bogotá",
+    "location": {
+      "lat": 4.6486259,
+      "lng": -74.2478934
+    },
+    "image": "https://lh6.googleusercontent.com/proxy/ofKdDSFSrfXHccmMCq0FJOq_pDAeTHfU5uC3m4UM9YZGd_u_I061vebaV-5CQDsWrUTLx2udrfVYMblCY00ptP1PEJkt=w408-h306-k-no"
+  },
+  {
+    "id": 2,
+    "name": "Medellin",
+    "code": "MDE",
+    "region": "Antioquia",
+    "location": {
+      "lat": 6.268844,
+      "lng": -75.6664325
+    },
+    "image": "https://lh6.googleusercontent.com/proxy/ofKdDSFSrfXHccmMCq0FJOq_pDAeTHfU5uC3m4UM9YZGd_u_I061vebaV-5CQDsWrUTLx2udrfVYMblCY00ptP1PEJkt=w408-h306-k-no"
+  }
+]
