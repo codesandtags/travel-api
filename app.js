@@ -1,3 +1,4 @@
+const cors = require('cors');
 const express = require('express');
 const session = require('express-session');
 const mongoose = require('mongoose');
@@ -19,6 +20,10 @@ const qrTrip = require('./routes/api/qrTrip');
 
 // create our Express app
 const app = express();
+
+// Allow CORS
+app.use(cors());
+app.options('*', cors());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views')); // this is the folder where we keep our pug files

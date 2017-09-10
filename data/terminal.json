@@ -1,28 +1,72 @@
 [
   {
     "terminalId": 1,
+    "name": "Terminal del Sur",
     "city": {
       "id": 1,
       "name": "Bogota"
     },
     "location": {
-      "lat": 4.6486259,
-      "lng": -74.2478934,
-      "address": "Calle asdfasdf"
+      "lat": 4.5980106,
+      "lng": -74.1778423,
+      "address": "Calle 57Q NO 75F – 82"
+    },
+    "gates": 1
+  },
+  {
+    "terminalId": 2,
+    "name": "Terminal de el Salitre",
+    "city": {
+      "id": 1,
+      "name": "Bogota"
+    },
+    "location": {
+      "lat": 4.6544768,
+      "lng": -74.1778423,
+      "address": "Dg. 23 #69a - 55,"
     },
     "gates": 5
   },
   {
-    "terminalId": 2,
+    "terminalId": 3,
+    "name": "Terminal del norte",
+    "city": {
+      "id": 1,
+      "name": "Bogota"
+    },
+    "location": {
+      "lat": 4.711443,
+      "lng": -74.1486146,
+      "address": "Cl. 192 #19-1"
+    },
+    "gates": 1
+  },
+  {
+    "terminalId": 4,
+    "name": "Terminales de Medellin",
     "city": {
       "id": 2,
       "name": "Medellin"
     },
     "location": {
-      "lat": 4.6486259,
-      "lng": -74.2478934,
-      "address": "Calle asdfasdf"
+      "lat": 6.2165971,
+      "lng": -75.5908489,
+      "address": "Cra. 65 #8B-91"
     },
-    "gates": 5
+    "gates": 1
+  },
+  {
+    "terminalId": 5,
+    "name": "Terminal de Cartagena de Indias",
+    "city": {
+      "id": 3,
+      "name": "Cartagena"
+    },
+    "location": {
+      "lat": 10.4102925,
+      "lng": -75.5400813,
+      "address": "Carretera la Cordialidad #24-236"
+    },
+    "gates": 1
   }
 ]

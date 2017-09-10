@@ -1,16 +1,46 @@
 [
   {
-    "transport_company": {
-      "nit": 800232342,
-      "name": "Buses del futuro",
-      "phone": "3128276541"
-    }
+    "nit": "860.005.108 -1",
+    "name": "Bolivariano",
+    "contact": {
+      "phone": "4249090",
+      "webpage": "http://www.bolivariano.com.co/",
+      "email": "contactenos@bolivariano.com.co"
+    },
+    "linked_terminals_id": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
   {
-    "transport_company": {
-      "nit": 1234523,
-      "name": "Buses del futuro",
-      "phone": "3128276541"
-    }
+    "nit": "860002566-6",
+    "name": "Flota la Macarena",
+    "contact": {
+      "phone": "421 2256",
+      "webpage": "http://www.flotalamacarena.com/site/",
+      "email": "servicioalcliente@flotalamacarena.com"
+    },
+    "linked_terminals_id": [
+      1,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "nit": "890.200.928-7",
+    "name": "Copetran",
+    "contact": {
+      "phone": "01 8000 912 848",
+      "webpage": "https://www.copetran.com.co/",
+      "email": "atencionalusuario@copetran.com.co"
+    },
+    "linked_terminals_id": [
+      2,
+      5
+    ]
   }
 ]

@@ -20,5 +20,16 @@
       "lng": -75.6664325
     },
     "image": "https://lh6.googleusercontent.com/proxy/ofKdDSFSrfXHccmMCq0FJOq_pDAeTHfU5uC3m4UM9YZGd_u_I061vebaV-5CQDsWrUTLx2udrfVYMblCY00ptP1PEJkt=w408-h306-k-no"
+  },
+  {
+    "id": 3,
+    "name": "Cartagena",
+    "code": "CTG",
+    "region": "Bolivar",
+    "location": {
+      "lat": 10.4001911,
+      "lng": -75.5260376
+    },
+    "image": "https://lh4.googleusercontent.com/proxy/xSCQBG86NCzKnpQqWafe_roc2rXnEZlAlTMmT2qDzx_py8W8lNeDkR1o95F9HcnfGFtrcNOOkApmvoDCpRW5WJLnVZfvIA=w408-h306-k-no"
   }
 ]

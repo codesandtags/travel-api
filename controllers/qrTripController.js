@@ -1,4 +1,5 @@
 const QRCode = require('qrcode');
+const qrTrip = require('../data/qrtrip.json');
 
 /**
  * Generate a QR Code Trip
@@ -6,11 +7,9 @@ const QRCode = require('qrcode');
  * @param res
  */
 exports.generateQrTrip = (req, res) => {
-    console.log('TODO: Adding new city...');
+    const data = JSON.stringify(qrTrip);
 
-    QRCode.toDataURL('I am a pony!', function (err, url) {
-        console.log(url);
+    QRCode.toDataURL(data, function (err, url) {
+        res.send(url);
     });
-
-    res.send('this method needs to be implemented...');
 };
